@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="62">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="sensor" displayName="sensor" projectFiles="true">
+        <itemPath>../../Microchip/Common/delay.h</itemPath>
+        <itemPath>../../Microchip/Common/SHT1x.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="ZigBee2006Res"
+                     displayName="ZigBee2006Res"
+                     projectFiles="true">
+        <itemPath>../../Microchip/Common/sralloc.h</itemPath>
+        <itemPath>../../Microchip/Common/Console.h</itemPath>
+        <itemPath>../../Microchip/Common/MSPI.h</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zZDO.h</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/SymbolTime.h</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zAPL.h</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zAPS.h</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zigbee.h</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/ZigbeeTasks.h</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zMAC.h</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zMAC_MRF24J40.h</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zNVM.h</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zNWK.h</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zPHY.h</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zPHY_MRF24J40.h</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zSecurity.h</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zSecurity_MRF24J40.h</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zTest.h</itemPath>
+      </logicalFolder>
+      <itemPath>../../Microchip/Common/generic.h</itemPath>
+      <itemPath>../../Microchip/Common/Compiler.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="sensor" displayName="sensor" projectFiles="true">
+        <itemPath>../../Microchip/Common/SHT1x.c</itemPath>
+        <itemPath>../../Microchip/Common/delay.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="ZigBee2006Res"
+                     displayName="ZigBee2006Res"
+                     projectFiles="true">
+        <itemPath>../../Microchip/Common/sralloc.c</itemPath>
+        <itemPath>../../Microchip/Common/Console.c</itemPath>
+        <itemPath>../../Microchip/Common/MSPI.c</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zZDO.C</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/SymbolTime.c</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zAPS.c</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/ZigbeeTasks.c</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zMAC_MRF24J40.c</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zNVM.c</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zNWK.c</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zPHY_MRF24J40.c</itemPath>
+        <itemPath>../../Microchip/ZigBeeStack/zSecurity_MRF24J40.c</itemPath>
+        <itemPath>../myZigBee.c</itemPath>
+      </logicalFolder>
+      <itemPath>../Coordinator.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <logicalFolder name="OtherFiles" displayName="Other Files" projectFiles="false">
+      <itemPath>../zigbee.def</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../Microchip/Common</Elem>
+    <Elem>../../Microchip/ZigBeeStack</Elem>
+    <Elem>../</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="default" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC24FJ128GA306</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>Simulator</platformTool>
+        <languageToolchain>C30</languageToolchain>
+        <languageToolchainVersion>3_31</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <C30>
+        <property key="code-model" value="default"/>
+        <property key="const-model" value="default"/>
+        <property key="data-model" value="default"/>
+        <property key="enable-all-warnings" value="true"/>
+        <property key="enable-ansi-std" value="false"/>
+        <property key="enable-ansi-warnings" value="false"/>
+        <property key="enable-fatal-warnings" value="false"/>
+        <property key="enable-large-arrays" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-procedural-abstraction" value="false"/>
+        <property key="enable-short-double" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="extra-include-directories"
+                  value="..;../../ZigBeeStack;../../Common;../../microchip/Common;../../../microchip/ZigBeeStack;../../../DemoPIC24FCoordinator;../../microchip/ZigBeeStack;../../Microchip/Common;../../Microchip/ZigBeeStack;"/>
+        <property key="isolate-each-function" value="false"/>
+        <property key="optimization-level" value="2"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="scalar-model" value="default"/>
+      </C30>
+      <C30Global>
+        <property key="fast-math" value="false"/>
+        <property key="legacy-libc" value="false"/>
+        <property key="output-file-format" value="elf"/>
+      </C30Global>
+      <Simulator>
+      </Simulator>
+    </conf>
+  </confs>
+</configurationDescriptor>
