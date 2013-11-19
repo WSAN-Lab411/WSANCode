@@ -53,9 +53,9 @@
 //#define ZCP_PRINTOUT
 
 /************ Implementation area. You can only choose one of these ************/
-//#define CHAMSOCLAN
+#define CHAMSOCLAN
 //#define CANHBAOCHAYRUNG
-#define THEODOIDONGVAT
+//#define THEODOIDONGVAT
 /*******************************************************************************/
 
 /******** every TIMER_UNIT_VALUE (s), timer TMR2-3 (32bits)  interrupt**********/
@@ -133,7 +133,7 @@
             #define USE_SHT10
 
             /* use save energy function */
-            #define USE_SAVE_ENERGY_MODE
+            //#define USE_SAVE_ENERGY_MODE
         #endif
 
         #define DesireNetworkID   0x1AAA
@@ -209,7 +209,6 @@
 #ifdef CHAMSOCLAN  //Dia chi MAC cho khu cham soc lan
 #ifdef SENSOR1
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x02
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -217,10 +216,6 @@
 #endif
 
 #ifdef SENSOR2
-//#define MAC_LONG_ADDR_BYTE4 0x02
-//#define MAC_LONG_ADDR_BYTE3 0x03
-//#define MAC_LONG_ADDR_BYTE2 0x02
-//#define MAC_LONG_ADDR_BYTE1 0x02
 #define MAC_LONG_ADDR_BYTE4 0x00
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
@@ -230,7 +225,6 @@
 
 #ifdef SENSOR3
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -247,7 +241,6 @@
 
 #ifdef SENSOR5
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -256,7 +249,6 @@
 
 #ifdef SENSOR6
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -265,7 +257,6 @@
 
 #ifdef SENSOR7
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -274,7 +265,6 @@
 
 #ifdef SENSOR8
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -283,7 +273,6 @@
 
 #ifdef SENSOR9
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -292,7 +281,6 @@
 
 #ifdef SENSOR10
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -301,7 +289,6 @@
 
 #ifdef SENSOR11
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -310,7 +297,6 @@
 
 #ifdef SENSOR12
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -321,7 +307,6 @@
 #ifdef CANHBAOCHAYRUNG // Dia chia MAC cho khu canh bao chay rung
 #ifdef SENSOR1
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x02
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -329,10 +314,6 @@
 #endif
 
 #ifdef SENSOR2
-//#define MAC_LONG_ADDR_BYTE4 0x02
-//#define MAC_LONG_ADDR_BYTE3 0x03
-//#define MAC_LONG_ADDR_BYTE2 0x02
-//#define MAC_LONG_ADDR_BYTE1 0x02
 #define MAC_LONG_ADDR_BYTE4 0x00
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
@@ -358,7 +339,6 @@
 
 #ifdef SENSOR5
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -367,7 +347,6 @@
 
 #ifdef SENSOR6
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -376,7 +355,6 @@
 
 #ifdef SENSOR7
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -385,7 +363,6 @@
 
 #ifdef SENSOR8
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -394,7 +371,6 @@
 
 #ifdef SENSOR9
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -403,7 +379,6 @@
 
 #ifdef SENSOR10
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -412,7 +387,6 @@
 
 #ifdef SENSOR11
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -421,7 +395,6 @@
 
 #ifdef SENSOR12
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -432,19 +405,13 @@
 #ifdef THEODOIDONGVAT
 #ifdef SENSOR1
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x02
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
-//#define MAC_LONG_ADDR_BYTE1 0x10
 #define MAC_LONG_ADDR_BYTE1 0x00
 #define MAC_LONG_ADDR_BYTE0 0x61
 #endif
 
 #ifdef SENSOR2
-//#define MAC_LONG_ADDR_BYTE4 0x02
-//#define MAC_LONG_ADDR_BYTE3 0x03
-//#define MAC_LONG_ADDR_BYTE2 0x02
-//#define MAC_LONG_ADDR_BYTE1 0x12
 #define MAC_LONG_ADDR_BYTE4 0x00
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
@@ -454,10 +421,8 @@
 
 #ifdef SENSOR3
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
-//#define MAC_LONG_ADDR_BYTE1 0x10
 #define MAC_LONG_ADDR_BYTE1 0x00
 #define MAC_LONG_ADDR_BYTE0 0x63
 #endif
@@ -466,59 +431,55 @@
 #define MAC_LONG_ADDR_BYTE4 0x00
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
-//#define MAC_LONG_ADDR_BYTE1 0x10
 #define MAC_LONG_ADDR_BYTE1 0x00
 #define MAC_LONG_ADDR_BYTE0 0x64
 #endif
 
 #ifdef SENSOR5
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
-//#define MAC_LONG_ADDR_BYTE1 0x10
 #define MAC_LONG_ADDR_BYTE1 0x00
 #define MAC_LONG_ADDR_BYTE0 0x65
 #endif
 
 #ifdef SENSOR6
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
-//#define MAC_LONG_ADDR_BYTE1 0x10
 #define MAC_LONG_ADDR_BYTE1 0x00
 #define MAC_LONG_ADDR_BYTE0 0x66
 #endif
 
 #ifdef SENSOR7
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
-//#define MAC_LONG_ADDR_BYTE1 0x10
 #define MAC_LONG_ADDR_BYTE1 0x00
 #define MAC_LONG_ADDR_BYTE0 0x67
 #endif
 
 #ifdef SENSOR8
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
-//#define MAC_LONG_ADDR_BYTE1 0x10
 #define MAC_LONG_ADDR_BYTE1 0x00
 #define MAC_LONG_ADDR_BYTE0 0x68
 #endif
 
 #ifdef SENSOR9
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
-//#define MAC_LONG_ADDR_BYTE1 0x10
 #define MAC_LONG_ADDR_BYTE1 0x00
 #define MAC_LONG_ADDR_BYTE0 0x69
+#endif
+#ifdef SENSOR10
+#define MAC_LONG_ADDR_BYTE4 0x00
+#define MAC_LONG_ADDR_BYTE3 0x00
+#define MAC_LONG_ADDR_BYTE2 0x00
+#define MAC_LONG_ADDR_BYTE1 0x00
+#define MAC_LONG_ADDR_BYTE0 0x6A
 #endif
 #endif
 
@@ -527,7 +488,6 @@
 //ACTOR MAC Address for CHAMSOCLAN area
 #ifdef I_AM_ACTOR1
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
@@ -537,7 +497,6 @@
 //ACTOR MAC Address for CANHBAOCHAYRUNG area
 #ifdef I_AM_ACTOR2
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x04
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00

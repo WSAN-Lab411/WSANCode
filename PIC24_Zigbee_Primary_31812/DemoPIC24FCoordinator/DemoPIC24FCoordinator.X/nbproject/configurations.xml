@@ -5,8 +5,8 @@
                    displayName="Header Files"
                    projectFiles="true">
       <logicalFolder name="sensor" displayName="sensor" projectFiles="true">
-        <itemPath>../../Microchip/Common/delay.h</itemPath>
-        <itemPath>../../Microchip/Common/SHT1x.h</itemPath>
+        <itemPath>../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/delay.h</itemPath>
+        <itemPath>../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/SHT1x.h</itemPath>
       </logicalFolder>
       <logicalFolder name="ZigBee2006Res"
                      displayName="ZigBee2006Res"
@@ -41,8 +41,8 @@
                    displayName="Source Files"
                    projectFiles="true">
       <logicalFolder name="sensor" displayName="sensor" projectFiles="true">
-        <itemPath>../../Microchip/Common/SHT1x.c</itemPath>
-        <itemPath>../../Microchip/Common/delay.c</itemPath>
+        <itemPath>../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/SHT1x.c</itemPath>
+        <itemPath>../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/delay.c</itemPath>
       </logicalFolder>
       <logicalFolder name="ZigBee2006Res"
                      displayName="ZigBee2006Res"
@@ -73,9 +73,11 @@
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
-    <Elem>../../Microchip/Common</Elem>
-    <Elem>../../Microchip/ZigBeeStack</Elem>
+    <Elem>..\..\Microchip\Common</Elem>
+    <Elem>..\..\..\..\..\..\Desktop\Actor200913Dev\PIC24_Zigbee_Primary_31812\Microchip\Common</Elem>
+    <Elem>..\..\Microchip\ZigBeeStack</Elem>
     <Elem>../</Elem>
+    <Elem>..</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -85,7 +87,7 @@
         <targetDevice>PIC24FJ128GA306</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>Simulator</platformTool>
+        <platformTool>PICkit3PlatformTool</platformTool>
         <languageToolchain>C30</languageToolchain>
         <languageToolchainVersion>3_31</languageToolchainVersion>
         <platform>3</platform>
@@ -124,7 +126,7 @@
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="extra-include-directories"
-                  value="..;../../ZigBeeStack;../../Common;../../microchip/Common;../../../microchip/ZigBeeStack;../../../DemoPIC24FCoordinator;../../microchip/ZigBeeStack;../../Microchip/Common;../../Microchip/ZigBeeStack;"/>
+                  value="..;../../ZigBeeStack;../../Common;../../microchip/Common;../../../microchip/ZigBeeStack;../../../DemoPIC24FCoordinator;../../microchip/ZigBeeStack;../../Microchip/Common;../../Microchip/ZigBeeStack;../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common;"/>
         <property key="isolate-each-function" value="false"/>
         <property key="optimization-level" value="2"/>
         <property key="post-instruction-scheduling" value="default"/>
@@ -132,13 +134,66 @@
         <property key="preprocessor-macros" value=""/>
         <property key="scalar-model" value="default"/>
       </C30>
+      <C30-AS>
+        <property key="assembler-symbols" value=""/>
+        <property key="expand-macros" value="false"/>
+        <property key="extra-include-directories-for-assembler" value="..;"/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="false-conditionals" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="list-section-info" value="false"/>
+        <property key="list-source" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="oXC16asm-list-to-file" value="false"/>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="relax" value="false"/>
+        <property key="warning-level" value="emit-warnings"/>
+        <appendMe value="-g"/>
+      </C30-AS>
+      <C30-LD>
+        <property key="boot-eeprom" value="no_eeprom"/>
+        <property key="boot-flash" value="no_flash"/>
+        <property key="boot-ram" value="no_ram"/>
+        <property key="boot-write-protect" value="no_write_protect"/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="enable-data-init" value="true"/>
+        <property key="enable-default-isr" value="true"/>
+        <property key="enable-handles" value="true"/>
+        <property key="enable-pack-data" value="true"/>
+        <property key="extra-lib-directories"
+                  value="../../../../../../../../Program Files/Microchip/MPLAB C30/lib;..;"/>
+        <property key="general-code-protect" value="no_code_protect"/>
+        <property key="general-write-protect" value="no_write_protect"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="heap-size" value="2048"/>
+        <property key="input-libraries" value=""/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file" value=""/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="false"/>
+        <property key="report-memory-usage" value="false"/>
+        <property key="secure-eeprom" value="no_eeprom"/>
+        <property key="secure-flash" value="no_flash"/>
+        <property key="secure-ram" value="no_ram"/>
+        <property key="secure-write-protect" value="no_write_protect"/>
+        <property key="stack-size" value=""/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C30-LD>
       <C30Global>
         <property key="fast-math" value="false"/>
         <property key="legacy-libc" value="false"/>
         <property key="output-file-format" value="elf"/>
       </C30Global>
-      <Simulator>
-      </Simulator>
+      <PICkit3PlatformTool>
+        <property key="tracecontrol.disablemacros" value="true"/>
+        <property key="tracecontrol.medium" value="0"/>
+        <property key="tracecontrol.select" value="0"/>
+      </PICkit3PlatformTool>
     </conf>
   </confs>
 </configurationDescriptor>

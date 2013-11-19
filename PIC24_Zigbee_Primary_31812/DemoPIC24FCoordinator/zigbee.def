@@ -56,14 +56,8 @@
 /*******************************************************************************/
 
 /******** every TIMER_UNIT_VALUE (s), timer TMR2-3 (32bits)  interrupt**********/
-#if defined(CHAMSOCLAN) || defined(CANHBAOCHAYRUNG)
-    #define TIMER_UNIT_VALUE    5
-    #define FIVE_SECONDS        1
-#endif
-#if defined(THEODOIDONGVAT)
-    #define TIMER_UNIT_VALUE    5
-    #define FIVE_SECONDS        1
-#endif
+#define TIMER_UNIT_VALUE    5
+#define FIVE_SECONDS        1
 /*******************************************************************************/
 
 /********************************* Option user *********************************/
@@ -182,12 +176,10 @@
 #define MAC_LONG_ADDR_BYTE6 0x04
 #define MAC_LONG_ADDR_BYTE5 0xA3
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x01
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
 #define MAC_LONG_ADDR_BYTE0 0x00
-//#define MAC_LONG_ADDR_BYTE0 0xB1
 #endif
 
 #if defined(THEODOIDONGVAT)
@@ -195,11 +187,11 @@
 #define MAC_LONG_ADDR_BYTE6 0x04
 #define MAC_LONG_ADDR_BYTE5 0xA3
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x01
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
 #define MAC_LONG_ADDR_BYTE0 0x61
+//#define MAC_LONG_ADDR_BYTE0 0x60
 #endif
 
 #if defined(CANHBAOCHAYRUNG)
@@ -207,7 +199,6 @@
 #define MAC_LONG_ADDR_BYTE6 0x04
 #define MAC_LONG_ADDR_BYTE5 0xA3
 #define MAC_LONG_ADDR_BYTE4 0x00
-//#define MAC_LONG_ADDR_BYTE3 0x01
 #define MAC_LONG_ADDR_BYTE3 0x00
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
