@@ -338,10 +338,10 @@ SubmitJoinRequest:
                     printf("\r\n");
 
                     #if defined(CHAMSOCLAN)
-                    if(params.NLME_JOIN_request.PANId.Val != 0x1AAA)
+                    if(params.NLME_JOIN_request.PANId.Val != 0x1AAC)
                     #endif
                     #if defined(CANHBAOCHAYRUNG)
-                    if(params.NLME_JOIN_request.PANId.Val != 0x1AAC)
+                    if(params.NLME_JOIN_request.PANId.Val != 0x1AAA)
                     #endif
                     {
                         currentNetworkDescriptor = currentNetworkDescriptor->next;
@@ -352,10 +352,10 @@ SubmitJoinRequest:
                         else
                         {
                             #if defined(CHAMSOCLAN)
-                            printf("Not found desire network 0x1AAA\r\n");
+                            printf("Not found desire network 0x1AAC\r\n");
                             #endif
                             #if defined(CANHBAOCHAYRUNG)
-                            printf("Not found desire network 0x1AAC\r\n");
+                            printf("Not found desire network 0x1AAA\r\n");
                             #endif
 
                             ZigBeeStatus.flags.bits.bNetworkJoined = 0;
@@ -365,10 +365,10 @@ SubmitJoinRequest:
                     else
                     {
                         #if defined(CHAMSOCLAN)
-                        printf("Found desire network 0x1AAA\r\n");
+                        printf("Found desire network 0x1AAC\r\n");
                         #endif
                         #if defined(CANHBAOCHAYRUNG)
-                        printf("Found desire network 0x1AAC\r\n");
+                        printf("Found desire network 0x1AAA\r\n");
                         #endif
 
                         params.NLME_JOIN_request.JoinAsRouter   = TRUE;

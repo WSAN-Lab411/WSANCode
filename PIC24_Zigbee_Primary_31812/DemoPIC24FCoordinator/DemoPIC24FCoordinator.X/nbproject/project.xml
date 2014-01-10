@@ -3,7 +3,7 @@
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
             <name>DemoPIC24FCoordinator</name>
-            <creation-uuid>2998afbe-377b-41c5-9dc2-d6a37ee6e766</creation-uuid>
+            <creation-uuid>73f928ea-a861-4591-8a29-f14796e1c96e</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
             <cpp-extensions/>

@@ -3,7 +3,7 @@
  *
  *******************************************************************************
  * FileName:        Coordinator.c
- * Date modified:   01/10/2013
+ * Date modified:   10/01/2014
  *
  * Microcontroller: PIC24FJ128GA306
  * Transceiver:     Microchip MRF24J40MB
@@ -160,8 +160,8 @@
     // 0x04 --> phat hien co doi tuong dang xam nhap bang cam bien MW
     #define DetectingByMicroWave    0x04
 
-    #define MaxCount                40
-    #define BlockMax                3
+    #define MaxCount                40	//tich du 40 xung thi bao dong
+    #define BlockMax                3	//thi phot lo xung trong 3 don vi (1 don vi thoi gian = 5s) thoi gian
 #endif
 
 //Dectecting object by PIR and Microwave sensor.
@@ -261,6 +261,7 @@ SHORT_ADDR          destinationAddress;
 
 #if defined(USE_SHT10)
     WORD humidity, temperature;//Luu tru gia tri do am, nhiet do lay tu SHT chua qua xu ly @dat_a3cbq91
+    WORD temp;
 #endif
 
 #if defined(USE_CONTROL_PUMP) || defined(USE_CONTROL_ALARM)
@@ -1216,12 +1217,21 @@ void ProcessNONZigBeeTasks(void)
             LoadSHT10();
 
             #if defined(USE_DEBUG)
-                printf("Temperature (hex): ");
-                PrintWord(temperature);
+                printf("Temperature (C): ");
+                temperature = temperature/100 - 40;
+                ConsolePut(temperature/10 + 0x30);
+                ConsolePut(temperature%10 + 0x30);
+                //printf("Temperature (hex): ");
+                //PrintWord(temperature);
                 printf("\r\n");
 
-                printf("Humidity (hex): ");
-                PrintWord(humidity);
+                printf("Humidity (%): ");
+                temp = humidity;
+                humidity = 367*temp/10000 - 2 - temp * temp * 16/10000000;
+                ConsolePut(humidity/10 + 0x30);
+                ConsolePut(humidity%10 + 0x30);
+                //printf("Humidity (hex): ");
+                //PrintWord(humidity);
                 printf("\r\n");
             #endif
 
@@ -1239,8 +1249,14 @@ void ProcessNONZigBeeTasks(void)
             printf("\r\n");
 
             /* Hien thi ket qua do dien ap nguon */
-            printf("Voltage (hex): ");
-            PrintWord(Energy_Level);
+            printf("Voltage (V): ");
+            //Energy_Level = 7.5 * 4096 /Energy_Level;
+            Energy_Level = 15 * 2048 /Energy_Level;
+            ConsolePut(Energy_Level/10 + 0x30);
+            ConsolePut('.');
+            ConsolePut(Energy_Level%10 + 0x30);
+            //printf("Voltage (hex): ");
+            //PrintWord(Energy_Level);
             printf("\r\n");
         #endif
 
@@ -1286,8 +1302,14 @@ void ProcessNONZigBeeTasks(void)
     if(WSANFlags.bits.CompleteADC)
     {
         #if defined(USE_DEBUG)
-            printf("Voltage (hex): ");
-            PrintWord(Energy_Level);
+            printf("Voltage (V): ");
+            //Energy_Level = 7.5 * 4096 /Energy_Level;
+            Energy_Level = 15 * 2048 /Energy_Level;
+            ConsolePut(Energy_Level/10 + 0x30);
+            ConsolePut('.');
+            ConsolePut(Energy_Level%10 + 0x30);
+            //printf("Voltage (hex): ");
+            //PrintWord(Energy_Level);
             printf("\r\n");
         #endif
         if (Energy_Level > ThresholdPower)
@@ -1399,12 +1421,14 @@ void HardwareInit(void)
         SPI2STAT = 0x8000;
     #endif
 
+    //configure several pins to control external memory EEPROM
     #ifdef USE_EXTERNAL_NVM
     	EEPROM_nCS	= 1;
     	EEPROM_nCS_TRIS	= 0;
     	IFS2bits.SPI2IF = 1;
     #endif
 
+    //configure several pins to control tranceiver
     PHY_RESETn = 0;
     PHY_RESETn_TRIS = 0;
     PHY_CS = 1;

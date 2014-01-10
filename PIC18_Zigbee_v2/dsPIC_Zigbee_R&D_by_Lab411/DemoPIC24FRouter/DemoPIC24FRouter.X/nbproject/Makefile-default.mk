@@ -45,17 +45,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=../../Microchip/Common/sralloc.c ../../Microchip/Common/Console.c ../../Microchip/Common/MSPI.c ../Router.c ../../Microchip/ZigBeeStack/zZDO.C ../../Microchip/ZigBeeStack/SymbolTime.c ../../Microchip/ZigBeeStack/zAPS.c ../../Microchip/ZigBeeStack/ZigbeeTasks.c ../../Microchip/ZigBeeStack/zMAC_MRF24J40.c ../../Microchip/ZigBeeStack/zNVM.c ../../Microchip/ZigBeeStack/zNWK.c ../../Microchip/ZigBeeStack/zPHY_MRF24J40.c ../../Microchip/ZigBeeStack/zSecurity_MRF24J40.c ../myZigBee.c
+SOURCEFILES_QUOTED_IF_SPACED=../../Microchip/Common/sralloc.c ../../Microchip/Common/Console.c ../../Microchip/Common/MSPI.c ../../Microchip/ZigBeeStack/zZDO.C ../../Microchip/ZigBeeStack/SymbolTime.c ../../Microchip/ZigBeeStack/zAPS.c ../../Microchip/ZigBeeStack/ZigbeeTasks.c ../../Microchip/ZigBeeStack/zMAC_MRF24J40.c ../../Microchip/ZigBeeStack/zNVM.c ../../Microchip/ZigBeeStack/zNWK.c ../../Microchip/ZigBeeStack/zPHY_MRF24J40.c ../../Microchip/ZigBeeStack/zSecurity_MRF24J40.c ../myZigBee.c ../Router.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/385479254/sralloc.o ${OBJECTDIR}/_ext/385479254/Console.o ${OBJECTDIR}/_ext/385479254/MSPI.o ${OBJECTDIR}/_ext/1472/Router.o ${OBJECTDIR}/_ext/1163520513/zZDO.o ${OBJECTDIR}/_ext/1163520513/SymbolTime.o ${OBJECTDIR}/_ext/1163520513/zAPS.o ${OBJECTDIR}/_ext/1163520513/ZigbeeTasks.o ${OBJECTDIR}/_ext/1163520513/zMAC_MRF24J40.o ${OBJECTDIR}/_ext/1163520513/zNVM.o ${OBJECTDIR}/_ext/1163520513/zNWK.o ${OBJECTDIR}/_ext/1163520513/zPHY_MRF24J40.o ${OBJECTDIR}/_ext/1163520513/zSecurity_MRF24J40.o ${OBJECTDIR}/_ext/1472/myZigBee.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/385479254/sralloc.o.d ${OBJECTDIR}/_ext/385479254/Console.o.d ${OBJECTDIR}/_ext/385479254/MSPI.o.d ${OBJECTDIR}/_ext/1472/Router.o.d ${OBJECTDIR}/_ext/1163520513/zZDO.o.d ${OBJECTDIR}/_ext/1163520513/SymbolTime.o.d ${OBJECTDIR}/_ext/1163520513/zAPS.o.d ${OBJECTDIR}/_ext/1163520513/ZigbeeTasks.o.d ${OBJECTDIR}/_ext/1163520513/zMAC_MRF24J40.o.d ${OBJECTDIR}/_ext/1163520513/zNVM.o.d ${OBJECTDIR}/_ext/1163520513/zNWK.o.d ${OBJECTDIR}/_ext/1163520513/zPHY_MRF24J40.o.d ${OBJECTDIR}/_ext/1163520513/zSecurity_MRF24J40.o.d ${OBJECTDIR}/_ext/1472/myZigBee.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/385479254/sralloc.o ${OBJECTDIR}/_ext/385479254/Console.o ${OBJECTDIR}/_ext/385479254/MSPI.o ${OBJECTDIR}/_ext/1163520513/zZDO.o ${OBJECTDIR}/_ext/1163520513/SymbolTime.o ${OBJECTDIR}/_ext/1163520513/zAPS.o ${OBJECTDIR}/_ext/1163520513/ZigbeeTasks.o ${OBJECTDIR}/_ext/1163520513/zMAC_MRF24J40.o ${OBJECTDIR}/_ext/1163520513/zNVM.o ${OBJECTDIR}/_ext/1163520513/zNWK.o ${OBJECTDIR}/_ext/1163520513/zPHY_MRF24J40.o ${OBJECTDIR}/_ext/1163520513/zSecurity_MRF24J40.o ${OBJECTDIR}/_ext/1472/myZigBee.o ${OBJECTDIR}/_ext/1472/Router.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/385479254/sralloc.o.d ${OBJECTDIR}/_ext/385479254/Console.o.d ${OBJECTDIR}/_ext/385479254/MSPI.o.d ${OBJECTDIR}/_ext/1163520513/zZDO.o.d ${OBJECTDIR}/_ext/1163520513/SymbolTime.o.d ${OBJECTDIR}/_ext/1163520513/zAPS.o.d ${OBJECTDIR}/_ext/1163520513/ZigbeeTasks.o.d ${OBJECTDIR}/_ext/1163520513/zMAC_MRF24J40.o.d ${OBJECTDIR}/_ext/1163520513/zNVM.o.d ${OBJECTDIR}/_ext/1163520513/zNWK.o.d ${OBJECTDIR}/_ext/1163520513/zPHY_MRF24J40.o.d ${OBJECTDIR}/_ext/1163520513/zSecurity_MRF24J40.o.d ${OBJECTDIR}/_ext/1472/myZigBee.o.d ${OBJECTDIR}/_ext/1472/Router.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/385479254/sralloc.o ${OBJECTDIR}/_ext/385479254/Console.o ${OBJECTDIR}/_ext/385479254/MSPI.o ${OBJECTDIR}/_ext/1472/Router.o ${OBJECTDIR}/_ext/1163520513/zZDO.o ${OBJECTDIR}/_ext/1163520513/SymbolTime.o ${OBJECTDIR}/_ext/1163520513/zAPS.o ${OBJECTDIR}/_ext/1163520513/ZigbeeTasks.o ${OBJECTDIR}/_ext/1163520513/zMAC_MRF24J40.o ${OBJECTDIR}/_ext/1163520513/zNVM.o ${OBJECTDIR}/_ext/1163520513/zNWK.o ${OBJECTDIR}/_ext/1163520513/zPHY_MRF24J40.o ${OBJECTDIR}/_ext/1163520513/zSecurity_MRF24J40.o ${OBJECTDIR}/_ext/1472/myZigBee.o
+OBJECTFILES=${OBJECTDIR}/_ext/385479254/sralloc.o ${OBJECTDIR}/_ext/385479254/Console.o ${OBJECTDIR}/_ext/385479254/MSPI.o ${OBJECTDIR}/_ext/1163520513/zZDO.o ${OBJECTDIR}/_ext/1163520513/SymbolTime.o ${OBJECTDIR}/_ext/1163520513/zAPS.o ${OBJECTDIR}/_ext/1163520513/ZigbeeTasks.o ${OBJECTDIR}/_ext/1163520513/zMAC_MRF24J40.o ${OBJECTDIR}/_ext/1163520513/zNVM.o ${OBJECTDIR}/_ext/1163520513/zNWK.o ${OBJECTDIR}/_ext/1163520513/zPHY_MRF24J40.o ${OBJECTDIR}/_ext/1163520513/zSecurity_MRF24J40.o ${OBJECTDIR}/_ext/1472/myZigBee.o ${OBJECTDIR}/_ext/1472/Router.o
 
 # Source Files
-SOURCEFILES=../../Microchip/Common/sralloc.c ../../Microchip/Common/Console.c ../../Microchip/Common/MSPI.c ../Router.c ../../Microchip/ZigBeeStack/zZDO.C ../../Microchip/ZigBeeStack/SymbolTime.c ../../Microchip/ZigBeeStack/zAPS.c ../../Microchip/ZigBeeStack/ZigbeeTasks.c ../../Microchip/ZigBeeStack/zMAC_MRF24J40.c ../../Microchip/ZigBeeStack/zNVM.c ../../Microchip/ZigBeeStack/zNWK.c ../../Microchip/ZigBeeStack/zPHY_MRF24J40.c ../../Microchip/ZigBeeStack/zSecurity_MRF24J40.c ../myZigBee.c
+SOURCEFILES=../../Microchip/Common/sralloc.c ../../Microchip/Common/Console.c ../../Microchip/Common/MSPI.c ../../Microchip/ZigBeeStack/zZDO.C ../../Microchip/ZigBeeStack/SymbolTime.c ../../Microchip/ZigBeeStack/zAPS.c ../../Microchip/ZigBeeStack/ZigbeeTasks.c ../../Microchip/ZigBeeStack/zMAC_MRF24J40.c ../../Microchip/ZigBeeStack/zNVM.c ../../Microchip/ZigBeeStack/zNWK.c ../../Microchip/ZigBeeStack/zPHY_MRF24J40.c ../../Microchip/ZigBeeStack/zSecurity_MRF24J40.c ../myZigBee.c ../Router.c
 
 
 CFLAGS=
@@ -108,12 +108,6 @@ ${OBJECTDIR}/_ext/385479254/MSPI.o: ../../Microchip/Common/MSPI.c  nbproject/Mak
 	@${RM} ${OBJECTDIR}/_ext/385479254/MSPI.o.d 
 	@${RM} ${OBJECTDIR}/_ext/385479254/MSPI.o.ok ${OBJECTDIR}/_ext/385479254/MSPI.o.err 
 	@${FIXDEPS} "${OBJECTDIR}/_ext/385479254/MSPI.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FRouter" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -O2 -MMD -MF "${OBJECTDIR}/_ext/385479254/MSPI.o.d" -o ${OBJECTDIR}/_ext/385479254/MSPI.o ../../Microchip/Common/MSPI.c    
-	
-${OBJECTDIR}/_ext/1472/Router.o: ../Router.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1472 
-	@${RM} ${OBJECTDIR}/_ext/1472/Router.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1472/Router.o.ok ${OBJECTDIR}/_ext/1472/Router.o.err 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/Router.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FRouter" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -O2 -MMD -MF "${OBJECTDIR}/_ext/1472/Router.o.d" -o ${OBJECTDIR}/_ext/1472/Router.o ../Router.c    
 	
 ${OBJECTDIR}/_ext/1163520513/zZDO.o: ../../Microchip/ZigBeeStack/zZDO.C  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/1163520513 
@@ -175,6 +169,12 @@ ${OBJECTDIR}/_ext/1472/myZigBee.o: ../myZigBee.c  nbproject/Makefile-${CND_CONF}
 	@${RM} ${OBJECTDIR}/_ext/1472/myZigBee.o.ok ${OBJECTDIR}/_ext/1472/myZigBee.o.err 
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/myZigBee.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FRouter" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -O2 -MMD -MF "${OBJECTDIR}/_ext/1472/myZigBee.o.d" -o ${OBJECTDIR}/_ext/1472/myZigBee.o ../myZigBee.c    
 	
+${OBJECTDIR}/_ext/1472/Router.o: ../Router.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1472 
+	@${RM} ${OBJECTDIR}/_ext/1472/Router.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1472/Router.o.ok ${OBJECTDIR}/_ext/1472/Router.o.err 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/Router.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FRouter" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -O2 -MMD -MF "${OBJECTDIR}/_ext/1472/Router.o.d" -o ${OBJECTDIR}/_ext/1472/Router.o ../Router.c    
+	
 else
 ${OBJECTDIR}/_ext/385479254/sralloc.o: ../../Microchip/Common/sralloc.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/385479254 
@@ -193,12 +193,6 @@ ${OBJECTDIR}/_ext/385479254/MSPI.o: ../../Microchip/Common/MSPI.c  nbproject/Mak
 	@${RM} ${OBJECTDIR}/_ext/385479254/MSPI.o.d 
 	@${RM} ${OBJECTDIR}/_ext/385479254/MSPI.o.ok ${OBJECTDIR}/_ext/385479254/MSPI.o.err 
 	@${FIXDEPS} "${OBJECTDIR}/_ext/385479254/MSPI.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FRouter" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -O2 -MMD -MF "${OBJECTDIR}/_ext/385479254/MSPI.o.d" -o ${OBJECTDIR}/_ext/385479254/MSPI.o ../../Microchip/Common/MSPI.c    
-	
-${OBJECTDIR}/_ext/1472/Router.o: ../Router.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1472 
-	@${RM} ${OBJECTDIR}/_ext/1472/Router.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1472/Router.o.ok ${OBJECTDIR}/_ext/1472/Router.o.err 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/Router.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FRouter" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -O2 -MMD -MF "${OBJECTDIR}/_ext/1472/Router.o.d" -o ${OBJECTDIR}/_ext/1472/Router.o ../Router.c    
 	
 ${OBJECTDIR}/_ext/1163520513/zZDO.o: ../../Microchip/ZigBeeStack/zZDO.C  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/1163520513 
@@ -259,6 +253,12 @@ ${OBJECTDIR}/_ext/1472/myZigBee.o: ../myZigBee.c  nbproject/Makefile-${CND_CONF}
 	@${RM} ${OBJECTDIR}/_ext/1472/myZigBee.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1472/myZigBee.o.ok ${OBJECTDIR}/_ext/1472/myZigBee.o.err 
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/myZigBee.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FRouter" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -O2 -MMD -MF "${OBJECTDIR}/_ext/1472/myZigBee.o.d" -o ${OBJECTDIR}/_ext/1472/myZigBee.o ../myZigBee.c    
+	
+${OBJECTDIR}/_ext/1472/Router.o: ../Router.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1472 
+	@${RM} ${OBJECTDIR}/_ext/1472/Router.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1472/Router.o.ok ${OBJECTDIR}/_ext/1472/Router.o.err 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/Router.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FRouter" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -O2 -MMD -MF "${OBJECTDIR}/_ext/1472/Router.o.d" -o ${OBJECTDIR}/_ext/1472/Router.o ../Router.c    
 	
 endif
 

@@ -53,9 +53,9 @@
 //#define ZCP_PRINTOUT
 
 /************ Implementation area. You can only choose one of these ************/
-#define CHAMSOCLAN
+//#define CHAMSOCLAN
 //#define CANHBAOCHAYRUNG
-//#define THEODOIDONGVAT
+#define THEODOIDONGVAT
 /*******************************************************************************/
 
 /******** every TIMER_UNIT_VALUE (s), timer TMR2-3 (32bits)  interrupt**********/
@@ -98,7 +98,7 @@
 #ifndef ROUTER_EMB
     /* Don't use warning low power if device is ACTOR1 or ACTOR2 */
     #if !defined(I_AM_ACTOR1) && !defined(I_AM_ACTOR2)
-        //#define USE_WARNING_LOW_POWER
+        #define USE_WARNING_LOW_POWER
     #endif
 
     /* use security function */
@@ -136,7 +136,7 @@
             //#define USE_SAVE_ENERGY_MODE
         #endif
 
-        #define DesireNetworkID   0x1AAA
+        #define DesireNetworkID   0x1AAC
     #endif
 
     #ifdef CANHBAOCHAYRUNG

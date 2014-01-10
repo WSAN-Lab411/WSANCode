@@ -73,11 +73,10 @@
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
-    <Elem>..\..\Microchip\Common</Elem>
-    <Elem>..\..\..\..\..\..\Desktop\Actor200913Dev\PIC24_Zigbee_Primary_31812\Microchip\Common</Elem>
-    <Elem>..\..\Microchip\ZigBeeStack</Elem>
+    <Elem>../../Microchip/Common</Elem>
+    <Elem>../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common</Elem>
+    <Elem>../../Microchip/ZigBeeStack</Elem>
     <Elem>../</Elem>
-    <Elem>..</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -87,7 +86,7 @@
         <targetDevice>PIC24FJ128GA306</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>PICkit3PlatformTool</platformTool>
+        <platformTool>Simulator</platformTool>
         <languageToolchain>C30</languageToolchain>
         <languageToolchainVersion>3_31</languageToolchainVersion>
         <platform>3</platform>
@@ -189,11 +188,8 @@
         <property key="legacy-libc" value="false"/>
         <property key="output-file-format" value="elf"/>
       </C30Global>
-      <PICkit3PlatformTool>
-        <property key="tracecontrol.disablemacros" value="true"/>
-        <property key="tracecontrol.medium" value="0"/>
-        <property key="tracecontrol.select" value="0"/>
-      </PICkit3PlatformTool>
+      <Simulator>
+      </Simulator>
     </conf>
   </confs>
 </configurationDescriptor>

@@ -49,10 +49,10 @@
 #ifndef _ZIGBEE_DEF
 #define _ZIGBEE_DEF
 
-/************ Implementation area. You can only choose one of these ************/
-//#define CHAMSOCLAN
+/********** Implementation area. You should only choose one of these ***********/
+#define CHAMSOCLAN
 //#define CANHBAOCHAYRUNG
-#define THEODOIDONGVAT
+//#define THEODOIDONGVAT
 /*******************************************************************************/
 
 /******** every TIMER_UNIT_VALUE (s), timer TMR2-3 (32bits)  interrupt**********/
@@ -83,7 +83,9 @@
 /* Uncomment the follow definition to use led for debugging */
 #define USE_LED
 
-/* Don't use warning low power if device is ACTOR1 or ACTOR2 */
+/* Don't need to use USE_WARNING_LOW_POWER if device is ACTOR1 or ACTOR2
+ * because they use main power.
+ */
 #if !defined(I_AM_ACTOR1) && !defined(I_AM_ACTOR2)
     #define USE_WARNING_LOW_POWER
 #endif
@@ -110,7 +112,7 @@
         #define USE_SHT10
     #endif
 
-    #define NetworkID   0x1AAA
+    #define NetworkID   0x1AAC
 #endif
 
 #ifdef CANHBAOCHAYRUNG

@@ -664,11 +664,11 @@ SubmitJoinRequest:
                                 #endif
 
                                 #if defined(CHAMSOCLAN)
-                                printf("Not found desire network 0x1AAA\r\n");
+                                printf("Not found desire network 0x1AAC\r\n");
                                 #endif
 
                                 #if defined(CANHBAOCHAYRUNG)
-                                printf("Not found desire network 0x1AAC\r\n");
+                                printf("Not found desire network 0x1AAA\r\n");
                                 #endif
                             #endif
 
