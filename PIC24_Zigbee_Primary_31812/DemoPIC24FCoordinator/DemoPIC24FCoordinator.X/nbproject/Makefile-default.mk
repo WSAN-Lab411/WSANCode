@@ -45,17 +45,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=../../Microchip/Common/sralloc.c ../../Microchip/Common/Console.c ../../Microchip/Common/MSPI.c ../Coordinator.c ../../Microchip/ZigBeeStack/zZDO.C ../../Microchip/ZigBeeStack/SymbolTime.c ../../Microchip/ZigBeeStack/zAPS.c ../../Microchip/ZigBeeStack/ZigbeeTasks.c ../../Microchip/ZigBeeStack/zMAC_MRF24J40.c ../../Microchip/ZigBeeStack/zNVM.c ../../Microchip/ZigBeeStack/zNWK.c ../../Microchip/ZigBeeStack/zPHY_MRF24J40.c ../../Microchip/ZigBeeStack/zSecurity_MRF24J40.c ../myZigBee.c ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/SHT1x.c ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/delay.c
+SOURCEFILES_QUOTED_IF_SPACED=../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/SHT1x.c ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/delay.c ../../Microchip/Common/sralloc.c ../../Microchip/Common/Console.c ../../Microchip/Common/MSPI.c ../../Microchip/ZigBeeStack/zZDO.C ../../Microchip/ZigBeeStack/SymbolTime.c ../../Microchip/ZigBeeStack/zAPS.c ../../Microchip/ZigBeeStack/ZigbeeTasks.c ../../Microchip/ZigBeeStack/zMAC_MRF24J40.c ../../Microchip/ZigBeeStack/zNVM.c ../../Microchip/ZigBeeStack/zNWK.c ../../Microchip/ZigBeeStack/zPHY_MRF24J40.c ../../Microchip/ZigBeeStack/zSecurity_MRF24J40.c ../myZigBee.c ../Coordinator.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/385479254/sralloc.o ${OBJECTDIR}/_ext/385479254/Console.o ${OBJECTDIR}/_ext/385479254/MSPI.o ${OBJECTDIR}/_ext/1472/Coordinator.o ${OBJECTDIR}/_ext/1163520513/zZDO.o ${OBJECTDIR}/_ext/1163520513/SymbolTime.o ${OBJECTDIR}/_ext/1163520513/zAPS.o ${OBJECTDIR}/_ext/1163520513/ZigbeeTasks.o ${OBJECTDIR}/_ext/1163520513/zMAC_MRF24J40.o ${OBJECTDIR}/_ext/1163520513/zNVM.o ${OBJECTDIR}/_ext/1163520513/zNWK.o ${OBJECTDIR}/_ext/1163520513/zPHY_MRF24J40.o ${OBJECTDIR}/_ext/1163520513/zSecurity_MRF24J40.o ${OBJECTDIR}/_ext/1472/myZigBee.o ${OBJECTDIR}/_ext/1731036568/SHT1x.o ${OBJECTDIR}/_ext/1731036568/delay.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/385479254/sralloc.o.d ${OBJECTDIR}/_ext/385479254/Console.o.d ${OBJECTDIR}/_ext/385479254/MSPI.o.d ${OBJECTDIR}/_ext/1472/Coordinator.o.d ${OBJECTDIR}/_ext/1163520513/zZDO.o.d ${OBJECTDIR}/_ext/1163520513/SymbolTime.o.d ${OBJECTDIR}/_ext/1163520513/zAPS.o.d ${OBJECTDIR}/_ext/1163520513/ZigbeeTasks.o.d ${OBJECTDIR}/_ext/1163520513/zMAC_MRF24J40.o.d ${OBJECTDIR}/_ext/1163520513/zNVM.o.d ${OBJECTDIR}/_ext/1163520513/zNWK.o.d ${OBJECTDIR}/_ext/1163520513/zPHY_MRF24J40.o.d ${OBJECTDIR}/_ext/1163520513/zSecurity_MRF24J40.o.d ${OBJECTDIR}/_ext/1472/myZigBee.o.d ${OBJECTDIR}/_ext/1731036568/SHT1x.o.d ${OBJECTDIR}/_ext/1731036568/delay.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1731036568/SHT1x.o ${OBJECTDIR}/_ext/1731036568/delay.o ${OBJECTDIR}/_ext/385479254/sralloc.o ${OBJECTDIR}/_ext/385479254/Console.o ${OBJECTDIR}/_ext/385479254/MSPI.o ${OBJECTDIR}/_ext/1163520513/zZDO.o ${OBJECTDIR}/_ext/1163520513/SymbolTime.o ${OBJECTDIR}/_ext/1163520513/zAPS.o ${OBJECTDIR}/_ext/1163520513/ZigbeeTasks.o ${OBJECTDIR}/_ext/1163520513/zMAC_MRF24J40.o ${OBJECTDIR}/_ext/1163520513/zNVM.o ${OBJECTDIR}/_ext/1163520513/zNWK.o ${OBJECTDIR}/_ext/1163520513/zPHY_MRF24J40.o ${OBJECTDIR}/_ext/1163520513/zSecurity_MRF24J40.o ${OBJECTDIR}/_ext/1472/myZigBee.o ${OBJECTDIR}/_ext/1472/Coordinator.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1731036568/SHT1x.o.d ${OBJECTDIR}/_ext/1731036568/delay.o.d ${OBJECTDIR}/_ext/385479254/sralloc.o.d ${OBJECTDIR}/_ext/385479254/Console.o.d ${OBJECTDIR}/_ext/385479254/MSPI.o.d ${OBJECTDIR}/_ext/1163520513/zZDO.o.d ${OBJECTDIR}/_ext/1163520513/SymbolTime.o.d ${OBJECTDIR}/_ext/1163520513/zAPS.o.d ${OBJECTDIR}/_ext/1163520513/ZigbeeTasks.o.d ${OBJECTDIR}/_ext/1163520513/zMAC_MRF24J40.o.d ${OBJECTDIR}/_ext/1163520513/zNVM.o.d ${OBJECTDIR}/_ext/1163520513/zNWK.o.d ${OBJECTDIR}/_ext/1163520513/zPHY_MRF24J40.o.d ${OBJECTDIR}/_ext/1163520513/zSecurity_MRF24J40.o.d ${OBJECTDIR}/_ext/1472/myZigBee.o.d ${OBJECTDIR}/_ext/1472/Coordinator.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/385479254/sralloc.o ${OBJECTDIR}/_ext/385479254/Console.o ${OBJECTDIR}/_ext/385479254/MSPI.o ${OBJECTDIR}/_ext/1472/Coordinator.o ${OBJECTDIR}/_ext/1163520513/zZDO.o ${OBJECTDIR}/_ext/1163520513/SymbolTime.o ${OBJECTDIR}/_ext/1163520513/zAPS.o ${OBJECTDIR}/_ext/1163520513/ZigbeeTasks.o ${OBJECTDIR}/_ext/1163520513/zMAC_MRF24J40.o ${OBJECTDIR}/_ext/1163520513/zNVM.o ${OBJECTDIR}/_ext/1163520513/zNWK.o ${OBJECTDIR}/_ext/1163520513/zPHY_MRF24J40.o ${OBJECTDIR}/_ext/1163520513/zSecurity_MRF24J40.o ${OBJECTDIR}/_ext/1472/myZigBee.o ${OBJECTDIR}/_ext/1731036568/SHT1x.o ${OBJECTDIR}/_ext/1731036568/delay.o
+OBJECTFILES=${OBJECTDIR}/_ext/1731036568/SHT1x.o ${OBJECTDIR}/_ext/1731036568/delay.o ${OBJECTDIR}/_ext/385479254/sralloc.o ${OBJECTDIR}/_ext/385479254/Console.o ${OBJECTDIR}/_ext/385479254/MSPI.o ${OBJECTDIR}/_ext/1163520513/zZDO.o ${OBJECTDIR}/_ext/1163520513/SymbolTime.o ${OBJECTDIR}/_ext/1163520513/zAPS.o ${OBJECTDIR}/_ext/1163520513/ZigbeeTasks.o ${OBJECTDIR}/_ext/1163520513/zMAC_MRF24J40.o ${OBJECTDIR}/_ext/1163520513/zNVM.o ${OBJECTDIR}/_ext/1163520513/zNWK.o ${OBJECTDIR}/_ext/1163520513/zPHY_MRF24J40.o ${OBJECTDIR}/_ext/1163520513/zSecurity_MRF24J40.o ${OBJECTDIR}/_ext/1472/myZigBee.o ${OBJECTDIR}/_ext/1472/Coordinator.o
 
 # Source Files
-SOURCEFILES=../../Microchip/Common/sralloc.c ../../Microchip/Common/Console.c ../../Microchip/Common/MSPI.c ../Coordinator.c ../../Microchip/ZigBeeStack/zZDO.C ../../Microchip/ZigBeeStack/SymbolTime.c ../../Microchip/ZigBeeStack/zAPS.c ../../Microchip/ZigBeeStack/ZigbeeTasks.c ../../Microchip/ZigBeeStack/zMAC_MRF24J40.c ../../Microchip/ZigBeeStack/zNVM.c ../../Microchip/ZigBeeStack/zNWK.c ../../Microchip/ZigBeeStack/zPHY_MRF24J40.c ../../Microchip/ZigBeeStack/zSecurity_MRF24J40.c ../myZigBee.c ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/SHT1x.c ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/delay.c
+SOURCEFILES=../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/SHT1x.c ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/delay.c ../../Microchip/Common/sralloc.c ../../Microchip/Common/Console.c ../../Microchip/Common/MSPI.c ../../Microchip/ZigBeeStack/zZDO.C ../../Microchip/ZigBeeStack/SymbolTime.c ../../Microchip/ZigBeeStack/zAPS.c ../../Microchip/ZigBeeStack/ZigbeeTasks.c ../../Microchip/ZigBeeStack/zMAC_MRF24J40.c ../../Microchip/ZigBeeStack/zNVM.c ../../Microchip/ZigBeeStack/zNWK.c ../../Microchip/ZigBeeStack/zPHY_MRF24J40.c ../../Microchip/ZigBeeStack/zSecurity_MRF24J40.c ../myZigBee.c ../Coordinator.c
 
 
 CFLAGS=
@@ -91,6 +91,18 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
+${OBJECTDIR}/_ext/1731036568/SHT1x.o: ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/SHT1x.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1731036568 
+	@${RM} ${OBJECTDIR}/_ext/1731036568/SHT1x.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1731036568/SHT1x.o.ok ${OBJECTDIR}/_ext/1731036568/SHT1x.o.err 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1731036568/SHT1x.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FCoordinator" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -I"../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common" -O2 -MMD -MF "${OBJECTDIR}/_ext/1731036568/SHT1x.o.d" -o ${OBJECTDIR}/_ext/1731036568/SHT1x.o ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/SHT1x.c    
+	
+${OBJECTDIR}/_ext/1731036568/delay.o: ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/delay.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1731036568 
+	@${RM} ${OBJECTDIR}/_ext/1731036568/delay.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1731036568/delay.o.ok ${OBJECTDIR}/_ext/1731036568/delay.o.err 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1731036568/delay.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FCoordinator" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -I"../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common" -O2 -MMD -MF "${OBJECTDIR}/_ext/1731036568/delay.o.d" -o ${OBJECTDIR}/_ext/1731036568/delay.o ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/delay.c    
+	
 ${OBJECTDIR}/_ext/385479254/sralloc.o: ../../Microchip/Common/sralloc.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/385479254 
 	@${RM} ${OBJECTDIR}/_ext/385479254/sralloc.o.d 
@@ -108,12 +120,6 @@ ${OBJECTDIR}/_ext/385479254/MSPI.o: ../../Microchip/Common/MSPI.c  nbproject/Mak
 	@${RM} ${OBJECTDIR}/_ext/385479254/MSPI.o.d 
 	@${RM} ${OBJECTDIR}/_ext/385479254/MSPI.o.ok ${OBJECTDIR}/_ext/385479254/MSPI.o.err 
 	@${FIXDEPS} "${OBJECTDIR}/_ext/385479254/MSPI.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FCoordinator" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -I"../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common" -O2 -MMD -MF "${OBJECTDIR}/_ext/385479254/MSPI.o.d" -o ${OBJECTDIR}/_ext/385479254/MSPI.o ../../Microchip/Common/MSPI.c    
-	
-${OBJECTDIR}/_ext/1472/Coordinator.o: ../Coordinator.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1472 
-	@${RM} ${OBJECTDIR}/_ext/1472/Coordinator.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1472/Coordinator.o.ok ${OBJECTDIR}/_ext/1472/Coordinator.o.err 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/Coordinator.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FCoordinator" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -I"../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common" -O2 -MMD -MF "${OBJECTDIR}/_ext/1472/Coordinator.o.d" -o ${OBJECTDIR}/_ext/1472/Coordinator.o ../Coordinator.c    
 	
 ${OBJECTDIR}/_ext/1163520513/zZDO.o: ../../Microchip/ZigBeeStack/zZDO.C  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/1163520513 
@@ -175,19 +181,25 @@ ${OBJECTDIR}/_ext/1472/myZigBee.o: ../myZigBee.c  nbproject/Makefile-${CND_CONF}
 	@${RM} ${OBJECTDIR}/_ext/1472/myZigBee.o.ok ${OBJECTDIR}/_ext/1472/myZigBee.o.err 
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/myZigBee.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FCoordinator" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -I"../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common" -O2 -MMD -MF "${OBJECTDIR}/_ext/1472/myZigBee.o.d" -o ${OBJECTDIR}/_ext/1472/myZigBee.o ../myZigBee.c    
 	
+${OBJECTDIR}/_ext/1472/Coordinator.o: ../Coordinator.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1472 
+	@${RM} ${OBJECTDIR}/_ext/1472/Coordinator.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1472/Coordinator.o.ok ${OBJECTDIR}/_ext/1472/Coordinator.o.err 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/Coordinator.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FCoordinator" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -I"../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common" -O2 -MMD -MF "${OBJECTDIR}/_ext/1472/Coordinator.o.d" -o ${OBJECTDIR}/_ext/1472/Coordinator.o ../Coordinator.c    
+	
+else
 ${OBJECTDIR}/_ext/1731036568/SHT1x.o: ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/SHT1x.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/1731036568 
 	@${RM} ${OBJECTDIR}/_ext/1731036568/SHT1x.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1731036568/SHT1x.o.ok ${OBJECTDIR}/_ext/1731036568/SHT1x.o.err 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1731036568/SHT1x.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FCoordinator" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -I"../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common" -O2 -MMD -MF "${OBJECTDIR}/_ext/1731036568/SHT1x.o.d" -o ${OBJECTDIR}/_ext/1731036568/SHT1x.o ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/SHT1x.c    
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1731036568/SHT1x.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FCoordinator" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -I"../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common" -O2 -MMD -MF "${OBJECTDIR}/_ext/1731036568/SHT1x.o.d" -o ${OBJECTDIR}/_ext/1731036568/SHT1x.o ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/SHT1x.c    
 	
 ${OBJECTDIR}/_ext/1731036568/delay.o: ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/delay.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/1731036568 
 	@${RM} ${OBJECTDIR}/_ext/1731036568/delay.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1731036568/delay.o.ok ${OBJECTDIR}/_ext/1731036568/delay.o.err 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1731036568/delay.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FCoordinator" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -I"../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common" -O2 -MMD -MF "${OBJECTDIR}/_ext/1731036568/delay.o.d" -o ${OBJECTDIR}/_ext/1731036568/delay.o ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/delay.c    
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1731036568/delay.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FCoordinator" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -I"../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common" -O2 -MMD -MF "${OBJECTDIR}/_ext/1731036568/delay.o.d" -o ${OBJECTDIR}/_ext/1731036568/delay.o ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/delay.c    
 	
-else
 ${OBJECTDIR}/_ext/385479254/sralloc.o: ../../Microchip/Common/sralloc.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/385479254 
 	@${RM} ${OBJECTDIR}/_ext/385479254/sralloc.o.d 
@@ -205,12 +217,6 @@ ${OBJECTDIR}/_ext/385479254/MSPI.o: ../../Microchip/Common/MSPI.c  nbproject/Mak
 	@${RM} ${OBJECTDIR}/_ext/385479254/MSPI.o.d 
 	@${RM} ${OBJECTDIR}/_ext/385479254/MSPI.o.ok ${OBJECTDIR}/_ext/385479254/MSPI.o.err 
 	@${FIXDEPS} "${OBJECTDIR}/_ext/385479254/MSPI.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FCoordinator" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -I"../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common" -O2 -MMD -MF "${OBJECTDIR}/_ext/385479254/MSPI.o.d" -o ${OBJECTDIR}/_ext/385479254/MSPI.o ../../Microchip/Common/MSPI.c    
-	
-${OBJECTDIR}/_ext/1472/Coordinator.o: ../Coordinator.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1472 
-	@${RM} ${OBJECTDIR}/_ext/1472/Coordinator.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1472/Coordinator.o.ok ${OBJECTDIR}/_ext/1472/Coordinator.o.err 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/Coordinator.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FCoordinator" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -I"../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common" -O2 -MMD -MF "${OBJECTDIR}/_ext/1472/Coordinator.o.d" -o ${OBJECTDIR}/_ext/1472/Coordinator.o ../Coordinator.c    
 	
 ${OBJECTDIR}/_ext/1163520513/zZDO.o: ../../Microchip/ZigBeeStack/zZDO.C  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/1163520513 
@@ -272,17 +278,11 @@ ${OBJECTDIR}/_ext/1472/myZigBee.o: ../myZigBee.c  nbproject/Makefile-${CND_CONF}
 	@${RM} ${OBJECTDIR}/_ext/1472/myZigBee.o.ok ${OBJECTDIR}/_ext/1472/myZigBee.o.err 
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/myZigBee.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FCoordinator" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -I"../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common" -O2 -MMD -MF "${OBJECTDIR}/_ext/1472/myZigBee.o.d" -o ${OBJECTDIR}/_ext/1472/myZigBee.o ../myZigBee.c    
 	
-${OBJECTDIR}/_ext/1731036568/SHT1x.o: ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/SHT1x.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1731036568 
-	@${RM} ${OBJECTDIR}/_ext/1731036568/SHT1x.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1731036568/SHT1x.o.ok ${OBJECTDIR}/_ext/1731036568/SHT1x.o.err 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1731036568/SHT1x.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FCoordinator" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -I"../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common" -O2 -MMD -MF "${OBJECTDIR}/_ext/1731036568/SHT1x.o.d" -o ${OBJECTDIR}/_ext/1731036568/SHT1x.o ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/SHT1x.c    
-	
-${OBJECTDIR}/_ext/1731036568/delay.o: ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/delay.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1731036568 
-	@${RM} ${OBJECTDIR}/_ext/1731036568/delay.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1731036568/delay.o.ok ${OBJECTDIR}/_ext/1731036568/delay.o.err 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1731036568/delay.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FCoordinator" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -I"../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common" -O2 -MMD -MF "${OBJECTDIR}/_ext/1731036568/delay.o.d" -o ${OBJECTDIR}/_ext/1731036568/delay.o ../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common/delay.c    
+${OBJECTDIR}/_ext/1472/Coordinator.o: ../Coordinator.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1472 
+	@${RM} ${OBJECTDIR}/_ext/1472/Coordinator.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1472/Coordinator.o.ok ${OBJECTDIR}/_ext/1472/Coordinator.o.err 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/Coordinator.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I".." -I"../../ZigBeeStack" -I"../../Common" -I"../../microchip/Common" -I"../../../microchip/ZigBeeStack" -I"../../../DemoPIC24FCoordinator" -I"../../microchip/ZigBeeStack" -I"../../Microchip/Common" -I"../../Microchip/ZigBeeStack" -I"../../../../../../Desktop/Actor200913Dev/PIC24_Zigbee_Primary_31812/Microchip/Common" -O2 -MMD -MF "${OBJECTDIR}/_ext/1472/Coordinator.o.d" -o ${OBJECTDIR}/_ext/1472/Coordinator.o ../Coordinator.c    
 	
 endif
 

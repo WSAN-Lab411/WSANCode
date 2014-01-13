@@ -68,7 +68,7 @@
  *we have used 10 devices to be sensor in CHAMSOCLAN area, CANHBAOCHAYRUNG area
  *and THEODOIDONGVAT area. We can change this from SENSOR 1 to SENSOR10.
  */
-#define SENSOR4
+#define SENSOR1
 
 /*Uncomment this following if you want the nodes to be an actor. In WSAN project,
  *we have used a device to be a CONTROL_PUMP (ACTOR1) in the CHAMSOCLAN area.

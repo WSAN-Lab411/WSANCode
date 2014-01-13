@@ -54,8 +54,8 @@
 //#define ZCP_PRINTOUT
 
 /************ Implementation area. You can only choose one of these ************/
-#define CHAMSOCLAN
-//#define CANHBAOCHAYRUNG
+//#define CHAMSOCLAN
+#define CANHBAOCHAYRUNG
 
 /* If you want to use computer to communicate with Router-EMB,
  * uncomment this following.
@@ -93,7 +93,7 @@
 #define USE_EXT_PA_LNA
 
 // Device MAC Address
-
+#ifdef CHAMSOCLAN
 #define MAC_LONG_ADDR_BYTE7 0x00
 #define MAC_LONG_ADDR_BYTE6 0x04
 #define MAC_LONG_ADDR_BYTE5 0xA3
@@ -102,6 +102,18 @@
 #define MAC_LONG_ADDR_BYTE2 0x00
 #define MAC_LONG_ADDR_BYTE1 0x00
 #define MAC_LONG_ADDR_BYTE0 0xA0
+#endif
+
+#ifdef CANHBAOCHAYRUNG
+#define MAC_LONG_ADDR_BYTE7 0x00
+#define MAC_LONG_ADDR_BYTE6 0x04
+#define MAC_LONG_ADDR_BYTE5 0xA3
+#define MAC_LONG_ADDR_BYTE4 0x00
+#define MAC_LONG_ADDR_BYTE3 0x00
+#define MAC_LONG_ADDR_BYTE2 0x00
+#define MAC_LONG_ADDR_BYTE1 0x00
+#define MAC_LONG_ADDR_BYTE0 0xA1
+#endif
 
 // ZigBee Device Information
 

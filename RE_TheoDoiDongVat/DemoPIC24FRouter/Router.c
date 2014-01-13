@@ -790,7 +790,7 @@ SubmitJoinRequest:
                                     LED2 = ~LED2;
                                 #endif
                                 MACAddr = APLGet();//MAC address of MiniRadar
-                                MACAddr = MACAddr - 0x60;
+                                MACAddr = MACAddr - 0x60;//determine position of sensor
                                 data = APLGet();
                                 switch(data)
                                 {

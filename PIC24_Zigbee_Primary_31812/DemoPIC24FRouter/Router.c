@@ -493,6 +493,10 @@ int main(void)
             printf("ZigBee Router Sensor9");
         #elif defined(SENSOR10)
             printf("ZigBee Router Sensor10");
+        #elif defined(SENSOR11)
+            printf("ZigBee Router Sensor11");
+        #elif defined(SENSOR12)
+            printf("ZigBee Router Sensor12");
 
         /*****************DEFINE ACTOR NODE*****************/
         #elif defined(I_AM_ACTOR1)
